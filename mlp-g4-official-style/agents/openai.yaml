@@ -1,0 +1,13 @@
+interface:
+  display_name: 小马绘画
+  short_description: MLP G4 同人绘画、角色一致性与解剖结构检查工作流
+  default_prompt: 使用 $mlp-g4-official-style 按“小马绘画”规则生成或编辑 MLP G4 同人图，并优先检查解剖、角色身份与参考图卫生。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
