@@ -8,7 +8,7 @@ It targets three recurring failures: broken anatomy (extra legs, front hooves dr
 
 ## Installation
 
-1. Download the latest `小马绘画_vX.Y_覆盖安装版.zip` from [Releases](../../releases).
+1. Download the latest `mlp-g4-official-style_vX.Y.zip` from [Releases](../../releases).
 2. Extract it into your Codex skills directory: `%USERPROFILE%\.codex\skills\` on Windows, `~/.codex/skills/` elsewhere.
 3. Verify the path reads `.../skills/mlp-g4-official-style/SKILL.md`.
 
@@ -65,3 +65,5 @@ Every generation ends with a fixed four-line self-check (counts, identity, struc
 ## Versioning
 
 Release flow: bump the version in `CHANGELOG.md` → build the zip → publish a Release with the zip as asset → delete the local zip. See [Releases](../../releases) for history.
+
+Note: GitHub release asset names do not support non-ASCII characters; a Chinese filename is silently reduced to its ASCII parts (`小马绘画_v2.1_覆盖安装版.zip` became `_v2.1_.zip`). Assets are therefore uploaded as `mlp-g4-official-style_vX.Y.zip`. The extracted folder name is unaffected.

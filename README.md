@@ -8,7 +8,7 @@
 
 ## 安装
 
-1. 到 [Releases](../../releases) 下载最新的 `小马绘画_vX.Y_覆盖安装版.zip`。
+1. 到 [Releases](../../releases) 下载最新的 `mlp-g4-official-style_vX.Y.zip`。
 2. 解压到 Codex 的 skills 目录：Windows 为 `%USERPROFILE%\.codex\skills\`，其他平台为 `~/.codex/skills/`。
 3. 确认路径为 `.../skills/mlp-g4-official-style/SKILL.md`。
 
@@ -71,4 +71,6 @@ mlp-g4-official-style/
 
 ## 版本
 
-发版流程：更新 `CHANGELOG.md` 的版本号 → 打包 → 发布 Release（zip 作为资产）→ 删除本地 zip。历史版本见 [Releases](../../releases)。
+发版流程：更新 `CHANGELOG.md` 的版本号 → 打包（本地文件名用 `小马绘画_vX.Y_覆盖安装版.zip`）→ 发布 Release → 删除本地 zip。历史版本见 [Releases](../../releases)。
+
+注意：GitHub 的 Release 资产名不支持中文，上传时中文会被丢弃（`小马绘画_v2.1_覆盖安装版.zip` 会变成 `_v2.1_.zip`），因此资产统一上传为 ASCII 名 `mlp-g4-official-style_vX.Y.zip`，解压后的目录名不受影响。
