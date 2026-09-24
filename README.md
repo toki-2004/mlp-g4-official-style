@@ -23,7 +23,7 @@
 | L0 | 小马基本形体：比例、四肢与前蹄、飞马双翼、Cutie Mark、身份常量、P0 判据 | `references/body-base.md` |
 | L1 | 绘画基本流程：构图、骨架、体块、结构自检、线稿与光影、细节、验收 | `references/drawing-process.md` |
 | L2 | 画风模块：官方 G4（默认）、国风·敦煌飞天 | `references/styles/` |
-| L3 | 角色库：8 位角色，条目内按画风分子条目 | `references/characters/` |
+| L3 | 角色库：9 位角色，条目内按画风分子条目 | `references/characters/` |
 
 另有一套独立的验收优先级：**P0** 形体与解剖、**P1** 角色身份与画风、**P2** 光影与装饰。P0 错误不能用画风或光影弥补。
 
@@ -50,7 +50,8 @@ mlp-g4-official-style/
         ├── applejack.md            苹果嘉儿
         ├── pinkie-pie.md           碧琪
         ├── princess-celestia.md    塞拉斯蒂娅
-        └── princess-luna.md        露娜
+        ├── princess-luna.md        露娜
+        └── starlight-glimmer.md    星光熠熠
 ```
 
 ## 用法

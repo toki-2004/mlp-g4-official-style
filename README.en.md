@@ -23,7 +23,7 @@ Rules are organized in four layers with no sentence duplicated across them, load
 | L0 | Pony anatomy: proportions, legs and front hooves, pegasus wings, cutie mark, identity constants, P0 criteria | `references/body-base.md` |
 | L1 | Drawing process: composition, skeleton, volumes, structural gate, line art and lighting, detail, review | `references/drawing-process.md` |
 | L2 | Style modules: official G4 (default), Dunhuang flying apsara | `references/styles/` |
-| L3 | Character library: 8 characters, each with per-style sub-entries | `references/characters/` |
+| L3 | Character library: 9 characters, each with per-style sub-entries | `references/characters/` |
 
 A separate acceptance priority scale applies: **P0** anatomy, **P1** character identity and style, **P2** lighting and decoration. A P0 failure can never be compensated by style or lighting.
 
@@ -43,7 +43,7 @@ mlp-g4-official-style/
     │   └── dunhuang-feitian.md     L2 Dunhuang style
     └── characters/
         ├── _template.md            Template for new characters
-        └── ...                     8 characters (Fluttershy, Rainbow Dash, Twilight Sparkle, Rarity, Applejack, Pinkie Pie, Princess Celestia, Princess Luna)
+        └── ...                     9 characters (Fluttershy, Rainbow Dash, Twilight Sparkle, Rarity, Applejack, Pinkie Pie, Princess Celestia, Princess Luna, Starlight Glimmer)
 ```
 
 ## Usage
